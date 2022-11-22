@@ -1,0 +1,14 @@
+server:
+  port: 4567
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 3072KB
+      max-request-size: 3072KB
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761
